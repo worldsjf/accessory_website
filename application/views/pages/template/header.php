@@ -63,7 +63,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="col-sm-4">
 			
 			<div class="logo pull-left">
-							<a href="index.html"><img src="images/home/logo.png" alt="" /></a>
+							<a href="index.html"><img style="width: 300px; height: 111px;" src="images/home/logo.png" alt="" /></a>
 						</div>
 					<div class="btn-group pull-right">
 					
@@ -131,7 +131,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </ul>
                                 </li> 
 								
-								<li><a href="application/views/pages/contact-us.html">CONTACT</a></li>
+								<li><a href="<?php echo base_url('contact') ?>">CONTACT</a></li>
 							</ul>
 						</div>
 					</div>
