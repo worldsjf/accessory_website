@@ -18,7 +18,7 @@ class IndexController extends CI_Controller {
 		$config = array();
 		$config["base_url"] = base_url() .'/phan-trang'; 
 		$config['total_rows'] = ceil($this->IndexModel->countAllProduct()); //đếm tất cả sản phẩm //8 //hàm ceil làm tròn phân trang 
-		$config["per_page"] = 4; //từng trang 3 sản phẩn
+		$config["per_page"] = 3; //từng trang 3 sản phẩn
 		$config["uri_segment"] = 2; //lấy số trang hiện tại
 		$config['use_page_numbers'] = TRUE; //trang có số
 		$config['full_tag_open'] = '<ul class="pagination">';
@@ -70,7 +70,7 @@ class IndexController extends CI_Controller {
 		$config = array();
 		$config["base_url"] = base_url() . '/danh-muc/' . $id . '/' . $this->data['slug'];
 		$config['total_rows'] = ceil($this->IndexModel->countAllProductByCate($id));
-		$config["per_page"] = 2;
+		$config["per_page"] = 3;
 		$config["uri_segment"] = 4;
 		$config['use_page_numbers'] = TRUE;
 		$config['full_tag_open'] = '<ul class="pagination">';

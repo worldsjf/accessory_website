@@ -1589,11 +1589,15 @@ h2.title {
 .cart_info table tr td {
   border-top: 0 none;
   vertical-align: inherit;
+  padding-left: 50px;
 }
+
+   
 
 
 #cart_items .cart_info .image {
   padding-left: 30px;
+  
 }
 
 

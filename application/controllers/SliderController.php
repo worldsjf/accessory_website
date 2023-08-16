@@ -12,7 +12,7 @@ class SliderController extends CI_Controller {
 	{ 
         $this->checkLogin();  
         $this->load->view('admin_template/header');
-        $this->load->view('admin_template/navbar');
+        //$this->load->view('admin_template/navbar');
         $this->load->model('SliderModel');
         $data['slider'] = $this->SliderModel->selectSlider();
         $this->load->view('slider/index', $data);
@@ -22,7 +22,7 @@ class SliderController extends CI_Controller {
 	{ 
         $this->checkLogin();  
         $this->load->view('admin_template/header');
-        $this->load->view('admin_template/navbar');
+        //$this->load->view('admin_template/navbar');
         $this->load->model('SliderModel');
         $data['slider'] = $this->SliderModel->selectSliderById($id);
         $this->load->view('slider/edit',$data);
@@ -50,7 +50,7 @@ class SliderController extends CI_Controller {
                {
                         $error = array('error' => $this->upload->display_errors()); // Change display_error() to display_errors()
                         $this->load->view('admin_template/header');
-                        $this->load->view('admin_template/navbar');
+                        //$this->load->view('admin_template/navbar');
                         $this->load->view('slider/edit/'.$id, $error);
                         $this->load->view('admin_template/footer');
                } else {
@@ -84,7 +84,7 @@ class SliderController extends CI_Controller {
 	{ 
         $this->checkLogin();  
         $this->load->view('admin_template/header');
-        $this->load->view('admin_template/navbar');
+        //$this->load->view('admin_template/navbar');
         $this->load->view('slider/create');
         $this->load->view('admin_template/footer');
 	}
@@ -108,7 +108,7 @@ class SliderController extends CI_Controller {
                {
                         $error = array('error' => $this->upload->display_errors()); // Change display_error() to display_errors()
                         $this->load->view('admin_template/header');
-                        $this->load->view('admin_template/navbar');
+                        //$this->load->view('admin_template/navbar');
                         $this->load->view('slider/create', $error);
                         $this->load->view('admin_template/footer');
                } else {

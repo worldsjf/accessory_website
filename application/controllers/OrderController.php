@@ -13,7 +13,7 @@ class OrderController extends CI_Controller {
     { 
         $this->checkLogin(); 
         $this->load->view('admin_template/header');
-        $this->load->view('admin_template/navbar');
+        //$this->load->view('admin_template/navbar');
 
         $this->load->model('OrderModel');
         $data['order'] = $this->OrderModel->selectOrder();
@@ -25,7 +25,7 @@ class OrderController extends CI_Controller {
     { 
         $this->checkLogin(); 
         $this->load->view('admin_template/header');
-        $this->load->view('admin_template/navbar');
+        //$this->load->view('admin_template/navbar');
 
         $this->load->model('OrderModel');
         $data['order_details'] = $this->OrderModel->selectOrderDetails($order_code);

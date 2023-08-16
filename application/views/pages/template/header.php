@@ -63,7 +63,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="col-sm-4">
 			
 			<div class="logo pull-left">
-							<a href="index.html"><img style="width: 300px; height: 111px;" src="images/home/logo.png" alt="" /></a>
+							<a href="#"><img style="width: 300px; height: 111px;" src="http://localhost:7890/images/home/logo.png" alt="" /></a>
 						</div>
 					<div class="btn-group pull-right">
 					
@@ -112,22 +112,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<ul class="nav navbar-nav collapse navbar-collapse">
 								<li><a href="<?php echo base_url('/')?>" class="active">HOME</a></li>
 								<li class="dropdown"><a href="#">SHOP<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
-                                        <?php
-                                        foreach($category as $key => $cate){
-                                        ?>
-                                        <li><a href="<?php echo base_url('danh-muc/' .$cate->id) ?>"><?php echo $cate->title ?></a></li>
-										<?php
-                                        }
-                                        ?>
+								<ul role="menu" class="sub-menu">
+                                        <li><a href="http://localhost:7890/danh-muc/3/vo-case">VỎ CASE</a></li>
+										<li><a href="http://localhost:7890/danh-muc/7/tan-nhiet">TẢN NHIỆT</a></li>
+										<li><a href="http://localhost:7890/danh-muc/8/mainboard">MAINBOARD</a></li>
+										<li><a href="http://localhost:7890/danh-muc/9/chuot">CHUỘT</a></li>
+										<li><a href="http://localhost:7890/danh-muc/10/ban-phim">BÀN PHÍM</a></li>
+										<li><a href="http://localhost:7890/danh-muc/11/card-man-hinh">CARD MÀN HÌNH</a></li>
                                     </ul>
                                 </li> 
-								<li class="dropdown"><a href="#">BRANCH<i class="fa fa-angle-down"></i></a>
+								<li class="dropdown"><a href="#">BRANDS<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <li><a href="blog.html">NZXT</a></li>
-										<li><a href="blog-single.html">ASUS</a></li>
-										<li><a href="blog.html">CORSAIR</a></li>
-										<li><a href="blog-single.html">GIGABYTE</a></li>
+                                        <li><a href="http://localhost:7890/thuong-hieu/6/nzxt">NZXT</a></li>
+										<li><a href="http://localhost:7890/thuong-hieu/7/asus">ASUS</a></li>
+										<li><a href="http://localhost:7890/thuong-hieu/8/corsair">CORSAIR</a></li>
+										<li><a href="http://localhost:7890/thuong-hieu/9/gigabyte">GIGABYTE</a></li>
+										<li><a href="http://localhost:7890/thuong-hieu/10/msi">MSI</a></li>
                                     </ul>
                                 </li> 
 								

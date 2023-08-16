@@ -18,7 +18,8 @@
 										<input type="hidden" value="<?php echo $pro->id ?>" name="product_id">
 										<input type="hidden" value="1" name="quantity">
 											<img src="<?php echo base_url('uploads/product/'.$pro->image) ?>" alt="<?php echo $pro->title ?>" />
-											<h2><?php echo number_format($pro->price,0,',','.') ?>VND</h2>
+											<h2><?php echo number_format(floatval($pro->price), 0, ',', '.') ?>VND</h2>
+
 											<p><?php echo $pro->title ?></p>
                                             <a href="<?php echo base_url('san-pham/'.$pro->id.'/'.$pro->slug) ?>" class="btn btn-default add-to-cart"><i class="fa fa-eye"></i>Details</a>
 											<button type="submit" class="btn btn-fefault cart">

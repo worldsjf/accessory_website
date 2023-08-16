@@ -69,7 +69,7 @@
                         <span>Slider</span>
                     </a>
                     <ul class="sub">
-						<li><<a class="dropdown-item" href="<?php echo base_url('slider/create') ?>">Add Slider</a></li>
+						<li><a class="dropdown-item" href="<?php echo base_url('slider/create') ?>">Add Slider</a></li>
                         <li> <a class="dropdown-item" href="<?php echo base_url('slider/list') ?>">List Slider</a></li>
                     </ul>
                 </li>
@@ -79,8 +79,18 @@
                         <span>Category</span>
                     </a>
                     <ul class="sub">
-						<li><a class="dropdown-item" href="<?php echo base_url('product/create') ?>">Add Product</a></li>
-                        <li> <a class="dropdown-item" href="<?php echo base_url('product/list') ?>">List Product</a></li>
+						<li><a class="dropdown-item" href="<?php echo base_url('category/create') ?>">Add Category</a></li>
+                        <li>  <a class="dropdown-item" href="<?php echo base_url('category/list') ?>">List Category</a></li>
+                    </ul>
+                </li>
+                <li class="sub-menu">
+                    <a href="javascript:;">
+                        <i class="fa fa-book"></i>
+                        <span>Product</span>
+                    </a>
+                    <ul class="sub">
+						<li> <a class="dropdown-item" href="<?php echo base_url('product/create') ?>">Add Product</a></li>
+                        <li>  <a class="dropdown-item" href="<?php echo base_url('product/list') ?>">List Product</a></li>
                     </ul>
                 </li>
                 <li class="sub-menu">

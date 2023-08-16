@@ -13,7 +13,7 @@ class CategoryController extends CI_Controller {
     { 
         $this->checkLogin(); 
         $this->load->view('admin_template/header');
-        $this->load->view('admin_template/navbar');
+        //$this->load->view('admin_template/navbar');
 
         $this->load->model('CategoryModel');
         $data['category'] = $this->CategoryModel->selectCategory();
@@ -26,7 +26,7 @@ class CategoryController extends CI_Controller {
     { 
         $this->checkLogin(); 
         $this->load->view('admin_template/header');
-        $this->load->view('admin_template/navbar');
+        //$this->load->view('admin_template/navbar');
         $this->load->view('category/create');
         $this->load->view('admin_template/footer');
     }
@@ -52,7 +52,7 @@ class CategoryController extends CI_Controller {
                {
                         $error = array('error' => $this->upload->display_errors()); // Change display_error() to display_errors()
                         $this->load->view('admin_template/header');
-                        $this->load->view('admin_template/navbar');
+                        //$this->load->view('admin_template/navbar');
                         $this->load->view('category/create', $error);
                         $this->load->view('admin_template/footer');
                } else {
@@ -78,7 +78,7 @@ class CategoryController extends CI_Controller {
     public function edit($id){
         $this->checkLogin(); 
             $this->load->view('admin_template/header');
-            $this->load->view('admin_template/navbar');
+            //$this->load->view('admin_template/navbar');
 
             $this->load->model('CategoryModel');
             $data['category'] = $this->CategoryModel->selectCategoryById($id);
@@ -108,7 +108,7 @@ class CategoryController extends CI_Controller {
                {
                         $error = array('error' => $this->upload->display_errors()); // Change display_error() to display_errors()
                         $this->load->view('admin_template/header');
-                        $this->load->view('admin_template/navbar');
+                        //$this->load->view('admin_template/navbar');
                         $this->load->view('category/edit/'.$id, $error);
                         $this->load->view('admin_template/footer');
                } else {
