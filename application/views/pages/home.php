@@ -6,7 +6,7 @@
 				
 				<div class="col-sm-9 padding-right">
 					<div class="features_items"><!--features_items-->
-						<h2 class="title text-center">Features Items</h2>
+						<h2 class="title text-center">Sản phẩm nổi bật</h2>
 						<form action="<?php echo base_url('add-to-cart') ?>" method="POST">
                         <?php
                         foreach ($allproduct_pagination as $key => $pro){
@@ -72,7 +72,8 @@
 										<input type="hidden" value="<?php echo $pro_cate['id'] ?>" name="product_id">
 										<input type="hidden" min="1" value="1" name="quantity"/>
 											<img src="<?php echo base_url('uploads/product/'.$pro_cate['image']) ?>" alt="<?php echo $pro_cate['title'] ?>" />
-											<h2><?php echo number_format($pro_cate['price'],0,',','.') ?>VND</h2>
+											<h2><?php echo number_format(floatval($pro_cate['price']), 0, ',', '.') ?>VND</h2>
+
 											<p><?php echo $pro_cate['title'] ?></p>
                                             <a href="<?php echo base_url('san-pham/'.$pro_cate['id'].'/'.$pro_cate['slug']) ?>" class="btn btn-default add-to-cart"><i class="fa-solid fa-eye"></i>Details</a>
 											<button type="submit" class="btn btn-fefault cart">

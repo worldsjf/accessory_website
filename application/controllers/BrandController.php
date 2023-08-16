@@ -13,7 +13,7 @@ class BrandController extends CI_Controller {
     { 
         $this->checkLogin(); 
         $this->load->view('admin_template/header');
-        $this->load->view('admin_template/navbar');
+        //$this->load->view('admin_template/navbar');
 
         $this->load->model('BrandModel');
         $data['brand'] = $this->BrandModel->selectBrand();
@@ -26,7 +26,7 @@ class BrandController extends CI_Controller {
     { 
         $this->checkLogin(); 
         $this->load->view('admin_template/header');
-        $this->load->view('admin_template/navbar');
+        //$this->load->view('admin_template/navbar');
         $this->load->view('brand/create');
         $this->load->view('admin_template/footer');
     }
@@ -52,7 +52,7 @@ class BrandController extends CI_Controller {
                {
                         $error = array('error' => $this->upload->display_errors()); // Change display_error() to display_errors()
                         $this->load->view('admin_template/header');
-                        $this->load->view('admin_template/navbar');
+                        //$this->load->view('admin_template/navbar');
                         $this->load->view('brand/create', $error);
                         $this->load->view('admin_template/footer');
                } else {
@@ -78,7 +78,7 @@ class BrandController extends CI_Controller {
     public function edit($id){
         $this->checkLogin(); 
             $this->load->view('admin_template/header');
-            $this->load->view('admin_template/navbar');
+            //$this->load->view('admin_template/navbar');
 
             $this->load->model('BrandModel');
             $data['brand'] = $this->BrandModel->selectBrandById($id);
@@ -108,7 +108,7 @@ class BrandController extends CI_Controller {
                {
                         $error = array('error' => $this->upload->display_errors()); // Change display_error() to display_errors()
                         $this->load->view('admin_template/header');
-                        $this->load->view('admin_template/navbar');
+                        //$this->load->view('admin_template/navbar');
                         $this->load->view('brand/create', $error);
                         $this->load->view('admin_template/footer');
                } else {

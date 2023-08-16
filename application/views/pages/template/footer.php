@@ -13,14 +13,14 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="images/home/iframe1.png" alt="" />
+										<img src="http://localhost:7890/images/home/iframe1.png" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
 								<p>NZXT</p>
-								<h2>24 DEC 2014</h2>
+								<h2>24 DEC 2023</h2>
 							</div>
 						</div>
 						
@@ -28,14 +28,14 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="images/home/iframe2.png" alt="" />
+										<img src="http://localhost:7890/images/home/iframe2.png" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
 								<p>ASUS</p>
-								<h2>24 DEC 2014</h2>
+								<h2>10 AUG 2023</h2>
 							</div>
 						</div>
 						
@@ -43,14 +43,14 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="images/home/iframe3.png" alt="" />
+										<img src="http://localhost:7890/images/home/iframe3.png" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
 								<p>CORSAIR</p>
-								<h2>24 DEC 2014</h2>
+								<h2>10 AUG 2023</h2>
 							</div>
 						</div>
 						
@@ -58,21 +58,21 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="images/home/iframe4.png" alt="" />
+										<img src="http://localhost:7890/images/home/iframe4.png" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
 									</div>
 								</a>
 								<p>GIGABYTE</p>
-								<h2>24 DEC 2014</h2>
+								<h2>10 AUG 2023</h2>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="address">
 							<img src="images/home/map.png" alt="" />
-							<p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
+							<p>79 Hồ Tùng Mậu</p>
 						</div>
 					</div>
 				</div>
@@ -86,47 +86,36 @@
 						<div class="single-widget">
 							<h2>Service</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Online Help</a></li>
-								<li><a href="#">Contact Us</a></li>
-								<li><a href="#">Order Status</a></li>
-								<li><a href="#">Change Location</a></li>
-								<li><a href="#">FAQ’s</a></li>
+								<li><a href="#">Giới thiệu về công ty</a></li>
+								<li><a href="#">Chính sách bảo mật</a></li>
+								<li><a href="#">Quy chế hoạt động</a></li>
+								<li><a href="#">Kiểm tra hóa đơn điện tử</a></li>
+								<li><a href="#">Tra cứu thông tin bảo hành</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-sm-2">
 						<div class="single-widget">
-							<h2>Quock Shop</h2>
+							<h2>Online</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">T-Shirt</a></li>
-								<li><a href="#">Mens</a></li>
-								<li><a href="#">Womens</a></li>
-								<li><a href="#">Gift Cards</a></li>
-								<li><a href="#">Shoes</a></li>
+								<li><a href="#">Tin khuyến mãi</a></li>
+								<li><a href="#">Hướng dẫn mua online</a></li>
+								<li><a href="#">Hướng dẫn mua trả góp</a></li>
+								<li><a href="#">Chính sách trả góp</a></li>
+								
 							</ul>
 						</div>
 					</div>
+					
 					<div class="col-sm-2">
 						<div class="single-widget">
-							<h2>Policies</h2>
+							<h2>About</h2>
 							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Terms of Use</a></li>
-								<li><a href="#">Privecy Policy</a></li>
-								<li><a href="#">Refund Policy</a></li>
-								<li><a href="#">Billing System</a></li>
-								<li><a href="#">Ticket System</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-2">
-						<div class="single-widget">
-							<h2>About Shopper</h2>
-							<ul class="nav nav-pills nav-stacked">
-								<li><a href="#">Company Information</a></li>
-								<li><a href="#">Careers</a></li>
-								<li><a href="#">Store Location</a></li>
-								<li><a href="#">Affillate Program</a></li>
-								<li><a href="#">Copyright</a></li>
+								<li><a href="#">Hệ thống cửa hàng</a></li>
+								<li><a href="#">Chính sách đổi trả</a></li>
+								<li><a href="#">Hệ thống bảo hành</a></li>
+								<li><a href="#">Giới thiệu máy đổi trả</a></li>
+								
 							</ul>
 						</div>
 					</div>
@@ -148,8 +137,8 @@
 		<div class="footer-bottom">
 			<div class="container">
 				<div class="row">
-					<p class="pull-left">Copyright © 2023 Accessory Inc. All rights reserved.</p>
-					<p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+					<p class="pull-left"> ©  2023 Accessory Inc. Nhóm 1</p>
+					
 				</div>
 			</div>
 		</div>
