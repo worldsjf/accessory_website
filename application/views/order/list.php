@@ -164,7 +164,7 @@
           if($ord->status==1){
             echo '<span class= "text text-primary">Đang chờ xử lý</span>';
           }elseif($ord->status==2){
-            echo '<span class= "text text-success">Đã giao hàng</span>';
+            echo '<span class= "text text-success">Đang giao hàng</span>';
           }else{
             echo '<span class= "text text-danger">Đã hủy</span>';
           }

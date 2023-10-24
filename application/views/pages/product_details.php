@@ -22,7 +22,7 @@
 								<input type="hidden" value="<?php echo $pro->id ?>" name="product_id">
 								<img src="images/product-details/rating.png" alt="" />
 								<span>
-									<span><?php echo number_format($pro->price,0,',','.') ?>vnd</span><br/>
+								<span><?php echo number_format(floatval($pro->price), 0, ',', '.') ?>vnd</span><br/>
 									<label>Quantity:<?php echo $pro->quantity ?></label>
 									<input type="number" min="1" value="1" name="quantity" />
 									<button type="submit" class="btn btn-fefault cart">

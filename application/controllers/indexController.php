@@ -316,8 +316,8 @@ class IndexController extends CI_Controller {
 					'email' => $email,
 				);
 				$this->session->set_userdata('LoggedInCustomer', $session_array);
-				$this->session->set_flashdata('success', 'Đăng nhập thành công');
-				redirect(base_url('/checkout'));
+				$this->session->set_flashdata('success', 'Thành công');
+				redirect(base_url('/dang-nhap'));
 			} else {
 				$this->session->set_flashdata('error', 'Email hoặc mật khẩu sai. Vui lòng đăng nhập lại.');
 				redirect(base_url('/dang-nhap'));

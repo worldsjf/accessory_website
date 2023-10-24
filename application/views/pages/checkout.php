@@ -38,7 +38,7 @@
 							
 							</td>
 							<td class="cart_price">
-								<p><?php echo number_format($items ['price'],0,',','.') ?>vnd</p>
+								<p><?php echo number_format($items ['price'],0,',','.') ?>VND</p>
 							</td>
 							<td class="cart_quantity">
 								<form action="<?php echo base_url('update-cart-item') ?>" method="POST">
@@ -52,7 +52,7 @@
 								</form>
 							</td>
 							<td class="cart_total">
-								<p class="cart_total_price"><?php echo number_format($subtotal,0,',','.') ?>vnd</p>
+								<p class="cart_total_price"><?php echo number_format($subtotal,0,',','.') ?>VND</p>
 							</td>
 
 						</tr>
@@ -60,7 +60,7 @@
 					}
 						?>
                     <tr>
-                        <td colspan="5">Tổng tiền<p class="cart_total_price"><?php echo number_format($total,0,',','.') ?>vnd</p></td>
+                        <td colspan="5">Tổng tiền<p class="cart_total_price"><?php echo number_format($total,0,',','.') ?>VND</p></td>
 						
                     </tr>
 	
